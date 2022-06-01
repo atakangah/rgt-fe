@@ -7,7 +7,7 @@ import { OutgoingMessage, Message } from "../../types";
 import "./styles.css";
 
 const RGTChat = () => {
-  const WS_URL = "ws://23.236.63.196:4000";
+  const WS_URL = "ws://rgtchat-be.herokuapp.com:4000";
 
   const { user, logout } = useAuth0();
   const [onlineUsers, setOnlineUsers] = useState([] as string[]);
