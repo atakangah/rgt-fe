@@ -1,0 +1,39 @@
+.rgtchat-message-card {
+  width: 100%;
+  margin: 5px 0px;
+  display: block;
+  /* background-color: red; */
+}
+.rgtchat-message-card span {
+  text-align: left;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: lightblue;
+  color: gray;
+  max-width: 350px;
+  min-width: 90px;
+  min-height: 20px;
+}
+.rgtchat-message-received {
+  float: left;
+  clear: both;
+}
+
+.rgtchat-message-received span {
+  float: left;
+  clear: both;
+}
+
+.rgtchat-message-sent {
+  float: right;
+  clear: all;
+}
+
+.rgtchat-message-sent span {
+  float: right;
+  clear: both;
+}
+
+.rgtchat-message-sent span {
+  background-color: lightgreen;
+}

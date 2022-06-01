@@ -1,0 +1,13 @@
+.rgtchat-input {
+  display: flex;
+  flex-flow: row;
+  flex-grow: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.rgtchat-input input {
+  width: 100%;
+  font-size: 16px;
+  padding: 0px 20px;
+}
