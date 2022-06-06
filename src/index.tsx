@@ -11,9 +11,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Auth0Provider
-      domain="dev-ge1p77jn.us.auth0.com"
-      clientId="nzu7MBXfER3qVzT51A1lQeQFffY7dbPh"
-      redirectUri="https://rgt-chat.herokuapp.com/"
+      domain={`${process.env.REACT_APP_AUTH_DOMAIN}`}
+      clientId={`${process.env.REACT_APP_AUTH_CLIENTID}`}
+      redirectUri={`${process.env.REACT_APP_AUTH_REDIRECTURL}`}
     >
       <App />
     </Auth0Provider>
